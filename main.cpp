@@ -1,5 +1,5 @@
 /***************************************************************************
-* File: program3.cpp
+* File: main.cpp
 * Author: Zeyad Elhabbab
 * Date: 4/25/2021
 * Procedures:
