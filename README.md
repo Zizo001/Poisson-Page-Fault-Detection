@@ -7,7 +7,7 @@
 * [Results](#results)
 
 # Overview
-The program compares the effectiveness of page replacement algorithms and tallies up the number of faults generated. It uses Poisson distribution with λ = 10 to generate 1000 page numbers. This is ran through three different algorithms: FIFO, LRU, and Clock/Second Chance. A total of 1000 experiments is performed for each algorithm. Furthermore, each experiment will have each algorithms use a working set size from 2 to 20. The average number of faults is plotted using Microsoft Excel and will be shown in the results section.
+The program compares the effectiveness of page replacement algorithms and tallies up the number of faults generated. It uses Poisson distribution with λ = 10 to generate 1000 page numbers. This is ran through three different algorithms: FIFO, LRU, and Clock/Second Chance. A total of 1000 experiments is performed for each algorithm. Furthermore, each experiment will have each algorithm use a working set size from 2 to 20. The average number of faults is plotted using Microsoft Excel and will be shown in the results section.
 
 ## Background
 Managing memory is a task that occurs in the background of all modern operating systems. Taking a closer look at the inner works of virtual memory management allows us to examine just how complex and involved the task actually is. This program aims to take a look at **memory paging** and how different algorithms can affect the effeciency of the OS. Memory paging is a memory management scheme in which secondary storage is used to store and retrieve data for later use in main memory. The OS retrieves data in equally-sized chunks known as pages. This allows programs to use secondary memory to exceed the amount of available physical memory. 
