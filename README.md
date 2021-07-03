@@ -36,3 +36,12 @@ An example of the output of the average faults throughout the 1000 experiments a
   <img src="https://user-images.githubusercontent.com/54548478/124326567-7b1d4000-db3b-11eb-9393-104f9190cb19.png" width="500"/>
 </p>
 
+If you made it this far, I hope this was informative. I believe that this program can serve as a low-level look at memory management using paging. All 3 algorithms are very similar, yet small changes do make a huge difference in effeciency. I highly suggest you try to create a program centering around simulating memory management as I have learned a lot from this one. If you are interested in learning more, then I highly suggest checking out some of the links below.
+
+https://www.geeksforgeeks.org/paging-in-operating-system/
+
+https://www.geeksforgeeks.org/page-replacement-algorithms-in-operating-systems/
+
+https://en.wikipedia.org/wiki/Cache_replacement_policies
+
+http://www.mathcs.emory.edu/~cheung/Courses/355/Syllabus/9-virtual-mem/SC-replace.html
